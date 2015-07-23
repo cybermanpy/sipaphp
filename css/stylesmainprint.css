@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#content{
+	margin:0 auto;
+	height:1024px;
+	width:1024px;
+	background:#e5dac1;
+}
+#header{
+	margin:0px 50px 0px 50px;
+	width:900px;
+}
+#banner{
+	text-align:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:25px;
+	color: #000;
+	/*background: #8f7156;*/
+	height:40px;
+}
+#mleft{
+	float:left;
+	width:100px;
+}
+#mmain{
+	width:800px;
+	margin:0px 100px 0px 100px;
+	/*text-align:center;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+#mright{
+	float:right;
+	width:100px;
+	display:inline;
+}
+#menu{
+	margin:100px 0px 0px 0px;
+}
+.tablemenu{
+	margin:0 auto;
+}
+/*********************************************************************************************************************/
+
+.odd{
+	/*background-color:#ffc;*/
+	background-color:#FFF;
+	
+}
+.even{
+	/*background-color:#cef;*/
+	background-color:#e5dac1;
+}
+.cabecera{
+	/*background-color:#9C6;*/
+	background-color:#8f7156;
+	color:#FFF;
+}
+
+
+.link{
+	text-decoration:none;
+}
+.divreg{
+	float:right;
+}
+.divfooter{
+	clear:both;
+	text-align:center;
+	/*margin:699px 0px 0px 0px;*/
+}
+.divad{
+	text-align:center;
+}
+.tablereg{
+	margin: 0 auto;
+	border-left:1px solid #03F;
+	border-right:1px solid #03F;
+	border-top:1px solid #03F;
+	border-bottom:1px solid #03F;
+	border-radius:5px;
+	width:400px;
+}
+.tablereg1{
+	margin: 0 auto;
+	border-left:1px solid #03F;
+	border-right:1px solid #03F;
+	border-top:1px solid #03F;
+	border-bottom:1px solid #03F;
+	border-radius:5px;
+	width:300px;
+}
+.tablereg2{
+	margin: 0 auto;
+	border-left:1px solid #03F;
+	border-right:1px solid #03F;
+	border-top:1px solid #03F;
+	border-bottom:1px solid #03F;
+	border-radius:5px;
+	width:160px;
+}
+.tableprint{
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border-spacing:0px;
+	width:700px;
+}
+.tableprint1{
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border-spacing:0px;
+	width:700px;
+}
+.tabletd{
+	border:1px solid #666;
+	border-spacing:0px;
+}
+.inputs{
+	width:250px;
+	float:left;
+}
+.inputs1{
+	width:200px;
+	float:left;
+}
+.aligntext{
+	text-align:right;
+}
+
+.floatright{
+	float:right;
+}
+li{
+	list-style:none
+}
+.viewtable{
+	margin:0 auto;
+}
+.viewtableScroll{
+	/*overflow:scroll;
+	width:900px;
+	height:500px;*/
+	margin:0 auto;
+	font-size:10px;
+}
+.maindiv{
+	margin: 0 auto;
+	text-align:left;
+}
+.img{
+	border:none;
+	width:16px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+/*
+.textarea{
+	width:300px;
+	height:100px;
+}*/
+/*####################################################*/
+/*#msgbox1{
+	display:none;
+}
+#frame{
+	display:none;
+}
+#form{
+	display:block;
+}*/
+
+.messagebox{
+	position:absolute;
+	width:100px;
+	margin-left:30px;
+	border:1px solid #c93;
+	background:#ffc;
+	padding:3px;
+}
+.messageboxok{
+	position:absolute;
+	width:auto;
+	margin-left:30px;
+	border:1px solid #349534;
+	background:#C9FFCA;
+	padding:3px;
+	font-weight:bold;
+	color:#008000;
+	
+}
+.messageboxerror{
+	position:absolute;
+	width:auto;
+	margin-left:30px;
+	border:1px solid #CC0000;
+	background:#F7CBCA;
+	padding:3px;
+	font-weight:bold;
+	color:#CC0000;
+}
+
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; display:block }
+/*####################################################*/
+/*.boton{
+	width:80px;
+	height:20px;
+	border-top:1px solid #999;
+	border-right:1px solid #999;
+	border-lef:1px solid #999;
+	border-bottom:1px solid #999;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#CCC;
+	text-align:center;
+	cursor:pointer;
+}*/
+.imgbanner{
+	float:left;
+	border-radius:8px;
+	-moz-border-radius:8px;
+}
+.boton{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.ui-autocomplete-loading { background: white url('../css/indicator.gif') right center no-repeat; }
+.textarea{
+	width:250px;
+	height:100px;
+}
+.textprint{
+	width:200px;
+}
+.negrita{
+	font:bold;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:14px;
+}

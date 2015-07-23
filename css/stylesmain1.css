@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	/*background:#e5dac1;*/
+	background:#ebe9d7;
+}
+#content{
+	margin:0 auto;
+	height:1024px;
+	width:1024px;
+	/*background:#e5dac1;*/
+	background:#ebe9d7;
+}
+#header{
+	margin:0px 50px 0px 50px;
+	width:900px;
+}
+#banner{
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:25px;
+	color: #000;
+	/*background: #8f7156;*/
+	height:40px;
+}
+#mleft{
+	float:left;
+	/*width:100px;*/
+	width:150px;
+}
+#mmain{
+	width:800px;
+	margin:0px 65px 0px 160px;
+	/*margin:0px 100px 0px 100px;*/
+	/*text-align:center;*/
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+#mright{
+	float:right;
+	width:100px;
+	display:inline;
+}
+#menu{
+	margin:100px 0px 0px 0px;
+	text-align:right;
+}
+.tablemenu{
+	margin:0 auto;
+}
+/*********************************************************************************************************************/
+
+.odd{
+	/*background-color:#ffc;*/
+	background-color:#FFF;
+	
+}
+.even{
+	/*background-color:#cef;*/
+	background-color:#e5dac1;
+}
+.cabecera{
+	/*background-color:#9C6;*/
+	background-color:#8f7156;
+	color:#FFF;
+}
+
+
+.link{
+	text-decoration:none;
+}
+.divreg{
+	float:right;
+}
+.divfooter{
+	clear:both;
+	text-align:center;
+	/*margin:699px 0px 0px 0px;*/
+}
+.divad{
+	text-align:center;
+}
+.tablereg{
+	margin: 0 auto;
+	border-left:1px solid #03F;
+	border-right:1px solid #03F;
+	border-top:1px solid #03F;
+	border-bottom:1px solid #03F;
+	border-radius:5px;
+	width:400px;
+}
+.tablereg td{
+	text-align:right;
+}
+input[type="text"]{
+	width:250px;
+	float:left;
+}
+input[type="password"]{
+	width:250px;
+	float:left;
+}
+textarea{
+	float:left;
+	width:250px;
+	height:100px;
+}
+select{
+	width:250px;
+	float:left;
+}
+.tablereg1{
+	margin: 0 auto;
+	border-left:1px solid #03F;
+	border-right:1px solid #03F;
+	border-top:1px solid #03F;
+	border-bottom:1px solid #03F;
+	border-radius:5px;
+	width:300px;
+}
+.tablereg2{
+	margin: 0 auto;
+	border-left:1px solid #03F;
+	border-right:1px solid #03F;
+	border-top:1px solid #03F;
+	border-bottom:1px solid #03F;
+	border-radius:5px;
+	width:160px;
+}
+.tableprint{
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border-spacing:0px;
+	width:700px;
+}
+.tableprint1{
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border-spacing:0px;
+	width:700px;
+}
+.tabletd{
+	border:1px solid #666;
+	border-spacing:0px;
+}
+.inputs{
+	width:250px;
+	float:left;
+}
+.inputs1{
+	width:200px;
+	float:left;
+}
+.aligntext{
+	text-align:right;
+}
+
+.floatright{
+	float:right;
+}
+li{
+	list-style:none
+}
+.viewtable{
+	margin:0 auto;
+}
+.viewtableScroll{
+	/*overflow:scroll;
+	width:900px;
+	height:500px;*/
+	margin:0 auto;
+	font-size:10px;
+}
+.maindiv{
+	margin: 0 auto;
+	text-align:left;
+}
+.img{
+	border:none;
+	width:16px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.alogon{
+	text-decoration:none;
+	color:black;
+}
+/*
+.textarea{
+	width:300px;
+	height:100px;
+}*/
+/*####################################################*/
+/*#msgbox1{
+	display:none;
+}
+#frame{
+	display:none;
+}
+#form{
+	display:block;
+}*/
+
+.messagebox{
+	position:absolute;
+	width:100px;
+	margin-left:30px;
+	border:1px solid #c93;
+	background:#ffc;
+	padding:3px;
+}
+.messageboxok{
+	position:absolute;
+	width:auto;
+	margin-left:30px;
+	border:1px solid #349534;
+	background:#C9FFCA;
+	padding:3px;
+	font-weight:bold;
+	color:#008000;
+	
+}
+.messageboxerror{
+	position:absolute;
+	width:auto;
+	margin-left:30px;
+	border:1px solid #CC0000;
+	background:#F7CBCA;
+	padding:3px;
+	font-weight:bold;
+	color:#CC0000;
+}
+
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; display:block }
+/*####################################################*/
+.boton{
+	/*width:80px;
+	height:20px;*/
+	/*border-top:1px solid #999;
+	border-right:1px solid #999;
+	border-lef:1px solid #999;
+	border-bottom:1px solid #999;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#f2f5f7;
+	text-align:center;*/
+	/*color:#362b36;*/
+
+	/*background:#f2f5e8;
+	cursor:pointer;
+	background:#f2f5e8;*/
+	float:right;
+	display: inline-block;
+    zoom: 2;
+    *display: inline;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-decoration: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.boton1{
+	/*width:80px;
+	height:20px;*/
+	/*border-top:1px solid #999;
+	border-right:1px solid #999;
+	border-lef:1px solid #999;
+	border-bottom:1px solid #999;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#f2f5f7;
+	text-align:center;*/
+	/*color:#362b36;*/
+	/*background:#f2f5e8;
+	cursor:pointer;
+	background:#f2f5e8;*/
+	float: none;
+	display: inline-block;
+	width:85px;
+    *display: inline;
+    vertical-align: baseline;
+    cursor: pointer;
+	text-align:center;
+    text-decoration: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding: .2em .5em .10em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background:#9C6;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.imgbanner{
+	/*float:left;*/
+	margin: 0px 510px 0px 100px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+}
+/*.boton{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}*/
+.ui-autocomplete-loading { background: white url('../css/indicator.gif') right center no-repeat; }
+.textarea{
+	width:250px;
+	height:100px;
+}
+.botonExcel{cursor:pointer;}
+
+
+/*######################################################################################################################*/
+
+
